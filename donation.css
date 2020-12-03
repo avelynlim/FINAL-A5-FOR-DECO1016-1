@@ -1,0 +1,258 @@
+/*button text email checkbox password month*/
+/*general css for donation form*/
+input[type=text], input[type=password],input[type=email],input[type=tel],input[type=address],input[type=month]{
+  padding:5px 10px;
+  font-family:  "Open Sans",   sans-serif;
+  border: 2px solid blue;
+  background-color: transparent !important;
+  vertical-align: middle;input[type=text]
+}
+label{
+  display:inline-block;
+  vertical-align: middle;
+  color: black;
+  cursor: pointer;
+  padding:5px 10px;
+}
+
+input[type=button]{
+  padding:5px 10px;
+}
+.heading{
+  width: 70%;
+  border-bottom: 3px solid white;
+  border-top: 3px solid white;
+  align-items: center;
+  margin:10px auto;
+  text-align: center;
+  color: white;
+}
+
+.give{
+  width:45%;
+  background-color: #fcdf87;
+
+}
+.give img{
+  width:100%;
+  height: auto;
+}
+.forms{
+  width: 45%;
+
+  background-color: #fcdf87;
+  align-items: center;
+}
+.donationbody{
+  display: flex;
+  justify-content: space-between;
+  padding:10px 50px;
+
+
+
+}
+
+/*#4e87a4
+#b0d5ce
+#fff1e4
+#fa86ab
+#ee2889
+ #f68741 #fcdf87 #ef0195 #1b96f3 #10133a
+#fa448c #fec859 #43b5a0 #491d88 #331a38  #f6f5f0
+*/
+
+/*from here css for buttons individually*/
+.give h2{
+  text-align: center;
+  color:#4e87a4;
+  padding: 10px 0 ;
+}
+
+.givebnt{
+  display:  flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin:0 40px;
+
+}
+.money1{
+  display:  flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  widthL auto;
+  margin:0 20px;
+
+
+}
+.givebnt #button1,
+.givebnt #button2{
+  width:115px;
+  padding:5px 10px;
+  font-size: 18px;
+  border: 3px solid #4e87a4;
+  background-color: transparent !important;
+
+}
+.givebnt #button1{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.givebnt #button2{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+.money1 #button3,
+.money1 #button4,
+.money1 #button5{
+  width:80px;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin:10px 5px;
+  border: 3px solid #4e87a4;
+  background-color: transparent !important;
+}
+.moneytype {
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+#moneyy{
+  width: 80%;
+  border: 3px solid #4e87a4;
+
+}
+
+.userinput{
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+.userinput h2{
+  margin:0;
+  color:#4e87a4;
+  padding: 10px 0 ;
+
+}
+
+.userinput #dtl1, #dtl2, #dtl3, #dtl4{
+  margin:3px 0;
+  margin-bottom: 10px;
+  border: 3px solid #4e87a4;
+}
+
+
+
+.detailuser{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:0 40px;
+}
+.forms .detailuser input{
+  text-align: center;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin:5px 0;
+}
+.detailuser h2{
+  text-align: center;
+  color:#4e87a4;
+  padding: 10px 0 ;
+
+}
+.detailuser #ad1, #ad2, #ad3{
+  margin:3px 0;
+  margin-bottom: 10px;
+  border: 3px solid #4e87a4;
+}
+
+#country{
+  width: auto;
+  margin:3px 0;
+  margin-bottom: 10px;
+  padding:3px 0px;
+  border: 3px solid #4e87a4;
+  background-color: transparent !important;
+
+}
+
+#states{
+  margin:3px 0;
+  margin-bottom: 10px;
+  padding:3px 0px;
+  border: 3px solid #4e87a4;
+  background-color: transparent !important;
+
+}
+
+.paying{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:0 40px;
+}
+.paying h2{
+  color:#4e87a4;
+  padding: 10px 0 ;
+
+}
+.paying #card1, #card2, #card3, #card4{
+  margin:3px 0;
+  margin-bottom: 10px;
+  border: 3px solid #4e87a4;
+}
+.termsand{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:0 40px;
+}
+.termsand h4{
+  margin:0;
+}
+.termsand p{
+  margin:3px 3px;
+  font-size: 14px;
+}
+.termsand #givenow{
+  width:130px;
+  color: #ee2889;
+  padding: 5px 10px;
+  font-size: 20px;
+  margin:0 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 3px solid #4e87a4;
+  background-color: transparent !important;
+}
+
+@media screen and (max-width: 768px){
+  .body{
+    width:100%;
+  }
+  .donationbody{
+    display: inline-block;
+    width: 100%;
+  }
+  .give{
+    width:80%;
+
+  }
+  .forms{
+    width:80%;
+  }
+
+
+}
