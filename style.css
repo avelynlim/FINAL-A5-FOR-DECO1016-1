@@ -61,6 +61,7 @@ a{
 }
 .nav_menu li:hover{
   background-color: yellowgreen;
+  border-radius: 10px;
 }
 
 .nav_menu a{
@@ -86,9 +87,7 @@ a{
 .nav_link i{
   font-size: 30px;
 }
-.nav_link li: hover {
-  background-color: #fcdf87;
-}
+
 
 .hamburger{
   display: none;
@@ -342,13 +341,20 @@ a{
 
 
 /*from here footer*/
+
 .footer{
-  display: flex;
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+  top: 20px;
+  padding: 0 0;
 }
 .footer .contact{
-  display: flex;
-  justify-content: space-between;
+  display: block;
+  align-items: center;
   margin: 0 auto;
+  padding: 0 0;
+  margin-top: 50px;
 
 }
 
@@ -360,9 +366,19 @@ a{
   font-size: 15px;
 }
 .footer .contact .nav_link{
+  display: flex;
   font-size: 15px;
   color:white;
-  padding:10px;
+  width: 12%;
+  height: auto;
+  padding: 10px 5px;
+  margin:0 auto;
+  align-items: center;
+}
+.footer .contact .nav_link > ul{
+  width: 12%;
+  margin: 0 auto;
+  align-items: center;
 }
 
 
@@ -400,6 +416,7 @@ a{
     }
   .nav_menu li:hover{
   background-color: yellowgreen;
+  border-radius: 0;
   }
   
 
@@ -413,10 +430,7 @@ a{
 
   }
 
-  .nav_memu.active,
-  .nav_link.active{
-    display: flex;
-  }
+ 
 /*from here main body content*/
 
   .maskcontent{
@@ -519,16 +533,16 @@ a{
 
   /*from here footer*/
   .footer{
-    display: flex;
+    display: block;
+    align-items: center;
   }
   .footer .contact{
-    display: inline-block;
+    display: block;
 
 
   }
   .footer .copyright{
-    display:inline-block;
-    flex-direction: column;
+    display:block;
     align-items: center;
     width: 100%;
     }
@@ -537,9 +551,9 @@ a{
     padding: 2px 2px;
     font-size: 8px;
   }
-  .contact .nav_link{
+  .footer .contact .nav_link{
     margin: 0 auto;
-    width: 40%;
+    width: 30%;
     height: auto;
     align-items: center;
     padding: 0;
@@ -551,7 +565,11 @@ a{
     margin-bottom: 5px;
   }
 
+  .copyright{
+    text-align: center;
+    margin:0 auto;
   }
+  
 
 
 }
